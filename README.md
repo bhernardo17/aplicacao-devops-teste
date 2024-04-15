@@ -27,13 +27,3 @@ Para os clientes, nossa plataforma oferece funcionalidades semelhantes às do Li
 3. Explore as artes disponíveis na plataforma.
 4. Entre em contato com os tatuadores de sua escolha para agendar uma consulta ou para mais informações sobre seus trabalhos.
 
-## Contribuição
-
-Se você deseja contribuir com o desenvolvimento da plataforma, siga estes passos:
-
-1. Faça um fork do repositório.
-2. Crie uma branch de feature (`git checkout -b feature/nova-feature`).
-3. Faça suas alterações.
-4. Faça commit das suas mudanças (`git commit -am 'Adicionar nova feature'`).
-5. Faça push para a branch (`git push origin feature/nova-feature`).
-6. Crie um novo pull request.
