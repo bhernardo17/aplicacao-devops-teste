@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+section{
+    padding: 2rem 2%;
+}
+
+
+/* HEADER */
+
+.header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    z-index: 2;
+    background: rgb(218, 218, 218);
+}
+
+.header .logo h1{
+    display: flex;
+    margin: 10px;
+    font-size: 40px;
+    color: rgb(100, 89, 91) ;
+}
+
+.header .navbar #close{
+    display: none;
+}
+
+.header .navbar a{
+    font-size: 2rem;
+    margin-right: 2rem;
+    color: rgb(0, 0, 0) ;
+}
+
+.header .navbar a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.header #menu{
+    display: none;
+}
+
+/* FIM DO HEADER */
+
+/* HOME */
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: rgb(218, 218, 218);
+    padding-top: 90px;
+    padding-left: 80px;
+}
+
+.home .content{
+    flex: 1 1 40rem;
+}
+
+.home .content .title{
+    font-size: 3rem;
+    color: #adadad;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.home .content .btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: #adadad;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-left: 450px; 
+}
+
+.home .content .btn:hover{
+    letter-spacing: .2rem;
+}
+
+.home .content .description{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #000;
+    width: 600px;
+    font-family: Nunito;
+    text-transform: lowercase;
+}
+
+.home .image{
+    flex: 1 1 30rem;
+}
+
+.home .image h1{
+    width: 100%;
+    font-size: 6rem;
+    color: #adadad;
+}
+
+.home .image img{
+    width: 420px;
+    height: 515px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 80px;
+    padding-top: 60px;
+}
+/*  FIM DA HOME */
+
+/*  SOBRE */
+.sobre .problema{
+    display: flex;
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #000;
+    width: 600px;
+    font-family: Nunito;
+    text-transform: lowercase;
+    padding-left: 50px;
+    margin-left: 770px;
+}   
+
+.sobre .title{
+    display: flex;
+    font-size: 3rem;
+    color: #adadad;
+    text-transform: uppercase;
+    padding-top: 100px;
+    padding-left: 50px;
+    margin-left: 770px;
+}
+
+.sobre{
+    height: 60vh;
+    background-color: #fff;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: #adadad;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-left: 820px; 
+}
+
+/*  FIM DA SOBRE */
+
+/*  PROJETO */
+
+.projeto{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: rgb(218, 218, 218);
+    padding-top: 5px;
+    padding-left: 80px;
+}
+
+.projeto .content .title-tatuadores{
+    font-size: 3rem;
+    color: #adadad;
+    text-transform: uppercase;
+    padding-right: 42px;
+}
+
+.projeto .content .title-clientes{
+    font-size: 3rem;
+    color: #adadad;
+    text-transform: uppercase;
+    padding-top: 106px;
+}
+
+.projeto .content .plataforma-tatuadores{
+    display: flex;
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #000;
+    width: 600px;
+    font-family: Nunito;
+    text-transform: none;
+}
+
+.projeto .content .plataforma-clientes{
+    display: flex;
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #000;
+    width: 600px;
+    font-family: Nunito;
+    text-transform: none;
+    text-align:initial;
+    padding-right: 40px;
+}
+
+/*  FIM DA PROJETO */
+
+/*  CONTATO */
+
+.contato {
+    background-color: rgb(218, 218, 218);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 180px;
+}
+
+.footer-column {
+    flex: 1 1 300px;
+    margin-bottom: 20px;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.footer-email,
+.footer-telefone {
+    font-size: 16px;
+    line-height: 1.4;
+    text-transform: none;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* Regras de mídia para tornar o footer responsivo */
+@media screen and (max-width: 768px) {
+    .footer-column {
+        flex-basis: 100%;
+    }
+}
+
+.main {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: rgb(218, 218, 218);
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.head h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(100, 89, 91);
+    color: rgb(218, 218, 218);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(117, 110, 111);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: rgb(189, 186, 186);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*  FIM DA CONTATO */
